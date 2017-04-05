@@ -1,0 +1,185 @@
+
+#center{
+	background: url(../images/center_02.gif) repeat-x;
+	position: relative;
+	*height:1700px;/*ie6就是塌陷问题*/
+
+}
+#center .marquee{
+	position: absolute;
+	top:10px;
+	padding:5px 0;
+	margin:0 auto;
+	margin-top:10px;
+	width:990px;
+	background: #fff;
+}
+#center .main .left{
+	float:left;
+	margin-top: 55px;
+	background: url(../images/centerbg_03.jpg) no-repeat;
+	width:697px;
+	height:295px;
+	margin-left: -10px;
+	position: relative;
+	/*定位标准要以最近的块定位*/
+}
+.left .l{
+	position: absolute;
+	top:155px;
+	left:2%;
+}
+.left .r{
+	position: absolute;
+	top:155px;
+	right:2%;
+}
+.main .left .biao{
+	margin-top: 10px;
+	margin-left: -15px;
+}
+.main .left .picture{
+	text-align: center;
+}
+.main .left .picture img{
+	padding:5px;
+	border:1px solid #e3e3e3;
+	margin-right: 10px;
+	margin-left:5px;
+	margin-top: 10px;
+}
+.main .left .artfont .con{
+	float:left;
+	margin:15px 65px 0 40px;
+}
+.main .left .artfont .con h1{
+	font-size: 12px;
+	color:#006cb8;
+	margin-top: 10px;
+
+}
+.main .left .artfont .con ul{
+	list-style: disc;
+	margin:10px;
+}
+
+.main .left .artfont .con ul li{
+	margin:15px 0 10px 0;
+	color:#878787;
+}
+.main .artfont .con li a{
+	display: block;
+	width:87px;
+	height: 29px;
+	background: url(../images/center_21.jpg) no-repeat;
+	margin-top: -3px;
+}
+.main .artfont .con li.t{
+	list-style: none;
+}
+.main .right{
+	background: url(../images/centerright_03.jpg) no-repeat;
+	width:308px;
+	height:295px;
+	float:right;
+	margin-top: 55px;
+}
+.right .ti{
+	margin: 10px 0 10px 16px;
+}
+.right .ti a{
+	background: url(../images/butt_05.gif) no-repeat;
+	display: inline-block;
+	width:90px;
+	height:24px;
+	text-decoration:none;
+	text-align: center;
+	line-height: 24px;
+	margin:0 1px;
+	color:#000;
+	font-weight: bold;
+}
+.right .ti a.sp{
+	background: url(../images/butt_03.gif) no-repeat;
+	color:#fff;
+}
+.right .it{
+	margin-left: 20px;
+}
+.right .it a{
+	display: block;
+	color:#878787;
+	text-decoration: none;
+	line-height: 26px;
+	/*margin-bottom: 10px;*/
+	padding-left: 10px;
+	background: url(../images/butt_13.gif) no-repeat 0px 10px;
+}
+/*.bottom{
+	clear: both;
+}*/
+.bottom{
+	position: relative;
+	top:25px;
+	clear: both;
+}
+.bottom .one{
+	background: url(../images/bottom_03.jpg) no-repeat;
+	width:331px;
+	height:158px;
+	float:left;
+}
+.bottom .one span ,.bottom .two span{
+	color:#2d6c9e;
+	margin:45px 0px 0 23px;
+	display: block;
+	line-height: 20px;
+}
+.bottom .two{
+	background: url(../images/bottom_04.jpg) no-repeat;
+	width:331px;
+	height:158px;
+	float:left;
+}
+.bottom .two .link{
+	margin:7px;
+	}
+.bottom .two .link a{
+	text-decoration: none;
+	padding:0 5px 0 5px;
+    color:#4d4d4d;
+}
+.bottom .three{
+	background: url(../images/bottom_03_03.jpg);
+	width:330px;
+	height:158px;
+	float:left;
+	position: relative;
+}
+.bottom .three img{
+	border:1px solid #bfc2c4;
+	position: absolute;
+	top:15px;
+	left:50%;
+	margin-left: -155px;
+}
+.bottom .three .num{
+	position: absolute;
+	bottom:5px;
+	right:1px;
+	font-size: 0px;
+}
+.bottom .three .num span{
+	display: inline-block;
+	background: url(../images/buttom_07.gif) repeat-x;
+	height:15px;
+	width:39px;
+	font-size: 12px;
+	color:#8792ac;
+	text-align: center;
+	cursor:pointer;
+	border-top: 1px solid #cfcfcf;
+	border-left: 1px solid #cfcfcf;
+	border-right: 1px solid #cfcfcf;
+}
+/*center end here and footer start here*/
